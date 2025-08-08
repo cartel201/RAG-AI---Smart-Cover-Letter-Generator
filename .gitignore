@@ -1,0 +1,17 @@
+# Ignore Chroma vector DB
+backend/chroma_db/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+venv/
+
+# Ignore models if any
+*.bin
+*.pt
+*.ckpt
+*.pth
+node_modules
